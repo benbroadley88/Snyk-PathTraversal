@@ -1,4 +1,4 @@
-﻿using MyLibrary.Wizards;
+﻿using WindowsControlLibrary1;
 
 namespace WindowsFormsApp1
 {
@@ -30,7 +30,7 @@ namespace WindowsFormsApp1
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.NewProjectWizardControl_Browse = new MyLibrary.Wizards.CustomWinFormsControl();
+			this.NewProjectWizardControl_Browse = new CustomWinFormsControl();
 			this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
 			this.tableLayoutPanel1.SuspendLayout();
 			this.SuspendLayout();

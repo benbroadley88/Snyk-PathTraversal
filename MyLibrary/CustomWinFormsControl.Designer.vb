@@ -68,6 +68,7 @@
             Me.TextBoxA.Dock = System.Windows.Forms.DockStyle.Fill
             Me.TextBoxA.Location = New System.Drawing.Point(3, 3)
             Me.TextBoxA.Name = "TextBoxA"
+            Me.TextBoxA.ReadOnly = True
             Me.TextBoxA.Size = New System.Drawing.Size(576, 20)
             Me.TextBoxA.TabIndex = 1
             '
@@ -76,6 +77,7 @@
             Me.TextBoxB.Dock = System.Windows.Forms.DockStyle.Fill
             Me.TextBoxB.Location = New System.Drawing.Point(3, 32)
             Me.TextBoxB.Name = "TextBoxB"
+            Me.TextBoxB.ReadOnly = True
             Me.TextBoxB.Size = New System.Drawing.Size(576, 20)
             Me.TextBoxB.TabIndex = 3
             '

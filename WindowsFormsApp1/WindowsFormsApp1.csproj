@@ -82,9 +82,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MyLibrary\MyLibrary.vbproj">
-      <Project>{e3aba365-1524-46a0-8c37-a10371ace1d4}</Project>
-      <Name>MyLibrary</Name>
+    <ProjectReference Include="..\WindowsControlLibrary1\WindowsControlLibrary1.vbproj">
+      <Project>{5b9c4407-2e57-4c88-bc6d-a7d51b412c0e}</Project>
+      <Name>WindowsControlLibrary1</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
